@@ -1,0 +1,12 @@
+VARIABLES
+age est un ENTIER
+
+TRAITEMENT
+ECRIRE "Veuillez entrer votre âge"
+LIRE age
+SI age > 17
+ALORS 
+ECRIRE "Vous êtes majeur"
+SINON 
+ECRIRE "Vous êtes mineur"
+FIN SI

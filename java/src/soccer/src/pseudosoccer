@@ -1,0 +1,29 @@
+VARIABLE
+age est un entier
+
+AFFICHER
+Demande à lutilisateur:Veuillez entrer l'age du joueur
+Lire
+Affecter l'entrée utilisateur à la variable a
+
+Tester a et répondre en fonction de sa valeur 
+
+LIRE
+SI a < 5
+AFFICHER "trop jeune"
+
+LIRE
+SI a = 5 ou a = 6
+AFFICHER "débutant"
+
+LIRE
+SI a = 7 ou a = 8
+AFFICHER "poussin"
+
+etc.....
+LIRE
+SI a > 18 ET  a < 35
+AFFICHER "sénior"
+
+SINON 
+AFFICHER "vétéran"

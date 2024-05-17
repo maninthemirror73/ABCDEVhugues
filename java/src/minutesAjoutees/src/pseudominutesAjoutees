@@ -1,0 +1,21 @@
+VARIABLES
+heures est un ENTIER
+minutes est un ENTIER
+minutesAjoutees est un ENTIER <-- 3
+
+TRAITEMENT
+AFFICHER "Entrez le nombre d'heures"
+LIRE heures
+
+SI heures > 23
+ALORS AFFICHER “Les données saisies sont invalides”
+SORTIR du programme
+
+AFFICHER "Entrez le nombre de minutes"
+LIRE minutes
+
+SI minutes > 56
+ALORS AFFICHER “Les données saisies sont invalides”
+SORTIR du programme
+
+AFFICHER "Dans 3 minutes il sera",heures,"h","et",( minutes + minutesAjoutees),"minutes";

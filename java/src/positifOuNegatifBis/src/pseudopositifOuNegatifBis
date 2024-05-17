@@ -1,0 +1,21 @@
+VARIABLES
+nombre1 est un ENTIER
+nombre2 est un ENTIER
+produit est un ENTIER
+
+TRAITEMENT
+
+AFFICHER "Entrez le premier nombre"
+LIRE nombre1
+AFFICHER "Entrez le second nombre"
+LIRE nombre2
+
+AFFICHER produit <-- nombre1 * nombre2
+LIRE produit
+
+SI produit >= 0
+ALORS AFFICHER "produit est positif"
+
+SINON AFFICHER "produit est négatif"
+
+FIN SI

@@ -1,0 +1,17 @@
+VARIABLES
+nombre1 ENTIER
+nombre2 ENTIER
+produit ENTIER
+
+
+AFFICHER
+ Veuillez entrer le premier nombre entier
+LIRE
+ Affecter ce nombre à la variable nombre1
+AFFICHER 
+ Veuillez entrer le second nombre entier
+LIRE
+ Affecter ce nombre à la variable nombre2
+nombre1 * nombre2 <-- produit
+AFFICHER 
+Le produit de nombre1 * nombre2 est,produit,""
