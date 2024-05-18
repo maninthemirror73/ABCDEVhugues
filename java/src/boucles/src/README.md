@@ -1,9 +1,0 @@
-VARIABLES
-i est un ENTIER
-
-TRAITEMENT
-i <-- 0
-TANT QUE i < 50
-i ITERATION
-
-ALORS ECRIRE "Voici ma boucle"
