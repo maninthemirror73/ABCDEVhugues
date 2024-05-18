@@ -15,8 +15,11 @@ public class App {
 		// TRAITEMENT
 		
 		System.out.println("Entrer votre prénom :");
-		prenom = sc.nextString();
-	
+		prenom = sc.nextLine();
+		
+		System.out.println(message  + " " + prenom + "!");
+		
+
 	sc.close();	
 
 	}
