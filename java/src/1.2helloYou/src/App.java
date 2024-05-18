@@ -1,8 +1,23 @@
-
+import java.util.Scanner;
 public class App {
-
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// VARIABLES
+		
+		String prenom;
+		
+		String message = "Bonjour";
+		
+		Scanner sc = new Scanner (System.in);
+		
+		
+		
+		// TRAITEMENT
+		
+		System.out.println("Entrer votre prénom :");
+		prenom = sc.nextString();
+	
+	sc.close();	
 
 	}
 
