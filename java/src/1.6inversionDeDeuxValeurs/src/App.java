@@ -20,6 +20,7 @@ public class App {
 		System.out.println("B = " + B);
 		
 		sc.close();
+		
 	}
 
 }
