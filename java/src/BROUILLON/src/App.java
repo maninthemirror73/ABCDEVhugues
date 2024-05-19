@@ -3,14 +3,11 @@ public class App {
 
 	public static void main(String[] args) {
 		//Variable
-		int numberOfTrees = 0;
-		
-		while(numberOfTrees < 10) {
-			numberOfTrees += 1;
-			
-		System.out.println("I planted " + numberOfTrees + " trees");
+		int i = 0;
+		while (i <= 100) {
+			System.out.println(i);
+			i++;
 		}
-		System.out.println("I have a forest !");
 
 	}
 
