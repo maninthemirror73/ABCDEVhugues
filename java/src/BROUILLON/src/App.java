@@ -3,11 +3,12 @@ public class App {
 
 	public static void main(String[] args) {
 		//Variable
-		int i = 0;
-		while (i <= 100) {
-			System.out.println(i);
-			i++;
-		}
+		int pushUpGoal = 0;
+		do {
+			System.out.println("Push up !");
+			pushUpGoal -= 1;
+		}while  (pushUpGoal >0);
+		
 
 	}
 
