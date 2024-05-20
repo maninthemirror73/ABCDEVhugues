@@ -9,11 +9,11 @@ public class App {
 		
 		
 		// VARIABLES
-		boolean beauTemps = false;
-		boolean veloOk = true;
-		boolean reparationsImmediates = false;
-		boolean livrePossede = false;
-		boolean livreDispoBibliotheque = true;
+		boolean beauTemps;
+		boolean veloOk ;
+		boolean reparationsImmediates ;
+		boolean livrePossede ;
+		boolean livreDispoBibliotheque ;
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Ma Bicyclette");
@@ -23,13 +23,13 @@ if (beauTemps = false) {
 	
 	System.out.println("Je vais me ballader");
 	
-	if (veloOk) {
+	if (veloOk = true) {
 		System.out.println("j'irai me ballader à bicyclette");
 	}
 	else {
 		System.out.println("Je vais chez le garagiste");
 		
-		if (reparationsImmediates) {
+		if (reparationsImmediates = false) {
 			System.out.println("j'irai me ballader à bicyclette");	
 		}
 		else {
@@ -44,7 +44,7 @@ else {
 	if (livrePossede = false) {
 		System.out.println("je vais à la bibliothèque");
 		
-		if (livreDispoBibliotheque) {
+		if (livreDispoBibliotheque = true) {
 			System.out.println("J'emprunte GoT");
 			
 		}
@@ -53,10 +53,6 @@ else {
 		}
 	}
 }
-		
-		
-		
-		
 
 		sc.close();
 	}
