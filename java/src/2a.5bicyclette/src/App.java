@@ -19,7 +19,7 @@ public class App {
 		System.out.println("Ma Bicyclette");
 
 		// TRAITEMENT
-if (beauTemps = true) {
+if (beauTemps = false) {
 	
 	System.out.println("Je vais me ballader");
 	
@@ -41,7 +41,7 @@ if (beauTemps = true) {
 else {
 	System.out.println("je vais lire un livre");
 	
-	if (livrePossede) {
+	if (livrePossede = false) {
 		System.out.println("je vais à la bibliothèque");
 		
 		if (livreDispoBibliotheque) {
