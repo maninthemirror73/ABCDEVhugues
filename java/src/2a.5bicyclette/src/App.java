@@ -9,17 +9,17 @@ public class App {
 		
 		
 		// VARIABLES
-		boolean beauTemps = true;
-		boolean veloOk = false;
+		boolean beauTemps = false;
+		boolean veloOk = true;
 		boolean reparationsImmediates = false;
-		boolean livrePossede;
-		boolean livreDispoBibliotheque;
+		boolean livrePossede = false;
+		boolean livreDispoBibliotheque = true;
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Ma Bicyclette");
 
 		// TRAITEMENT
-if (beauTemps) {
+if (beauTemps = true) {
 	
 	System.out.println("Je vais me ballader");
 	
@@ -40,6 +40,18 @@ if (beauTemps) {
 }
 else {
 	System.out.println("je vais lire un livre");
+	
+	if (livrePossede) {
+		System.out.println("je vais à la bibliothèque");
+		
+		if (livreDispoBibliotheque) {
+			System.out.println("J'emprunte GoT");
+			
+		}
+		else {
+			System.out.println("J'emprunte un roman policier");
+		}
+	}
 }
 		
 		
