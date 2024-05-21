@@ -17,13 +17,13 @@ public class App {
 			
 			if (nombreSaisi < 10) {
 				
-				System.out.println("Trop petit !");	
+				System.out.println("Plus grand !");	
 			}
 			else if (nombreSaisi > 20) {
-				System.out.println("Trop grand !");	
+				System.out.println("Plus petit !");	
 			}
 			
-		} while(nombreSaisi != nombreChoisi);
+		} while(nombreSaisi < 10 || nombreSaisi > 20);
 		
 		System.out.println("Yes, you did it !");
 
