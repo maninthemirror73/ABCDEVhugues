@@ -19,7 +19,7 @@ public class App {
 		System.out.println("Ma Bicyclette");
 
 		// TRAITEMENT
-if (beauTemps = false) {
+if (beauTemps = true) {
 	
 	System.out.println("Je vais me ballader");
 	

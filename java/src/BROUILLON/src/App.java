@@ -3,16 +3,10 @@ public class App {
 
 	public static void main(String[] args) {
 		//Variable
-		int pushUpGoal = 0;
-		while (pushUpGoal > 0) {
-			System.out.println("Push Up !");
-			pushUpGoal-= 1;
+		int i;
+		for(i = 56; i >= 0; i--) {
+			System.out.println(i);
 		}
-		
-		do {
-			System.out.println("Push Up !");
-			pushUpGoal-= 1;
-		}while(pushUpGoal > 0);
 	}
 
 }
