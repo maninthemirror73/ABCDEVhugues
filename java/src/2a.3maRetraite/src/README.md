@@ -21,5 +21,7 @@ ALORS
 AFFICHER "Vous êtes à la retraite depuis, (A - ageDeLaRetraite) ,années" 
 
 SINON SI A < 60
-AFFICHER "Il vous reste, (ageDeLaRetraite - age),années avant la retraite."
-        
+AFFICHER "Il vous reste, (ageDeLaRetraite - A),années avant la retraite."
+
+SINON
+AFFICHER "C’est le moment de prendre sa retraite."        

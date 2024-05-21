@@ -4,7 +4,7 @@ public class App {
 	public static void main(String[] args) {
 		//VARIABLES
 		int ageDeLaRetraite = 60;
-		int A = 34;//age de la personne
+		int A = 61;//age de la personne
 		
 		//TRAITEMENT
 		if (A < 1 || A > 100) {
@@ -15,9 +15,12 @@ public class App {
 		else if (A > 60) {
 			System.out.println("Vous êtes à la retraite depuis " + (A - ageDeLaRetraite) + " années");
 		}
-		else if (A < 60)
+		else if (A < 60) {
 			System.out.println("Il vous reste " + (ageDeLaRetraite - A) + " années avant la retraite.");
-
+		}
+		else {
+			System.out.println("C’est le moment de prendre sa retraite." );
+		}
 	}
 
 }
