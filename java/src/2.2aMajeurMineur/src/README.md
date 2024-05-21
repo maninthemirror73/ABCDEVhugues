@@ -6,3 +6,16 @@
 
 La majorité est fixée à 18 ans.
 
+VARIABLES
+
+A est  un ENTIER
+
+TRAITEMENT 
+
+SI A > 18 
+ALORS AFFICHER "Vous êtes majeur."
+SINON SI A < 18 ET A < 0
+ALORS AFFICHER "Vous êtes mineur."
+SINON SI A < 1
+ALORS AFFICHER "Vous n'êtes pas né."
+
