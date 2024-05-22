@@ -12,12 +12,12 @@ VARIABLES
 
 i est un ENTIER
 nombreDeDepart est un ENTIER
-factorielle est un ENTIER
+factorielle est un ENTIER <-- 1
 
 AFFICHER "Entrer un nombre entier :"
 LIRE nombreDeDepart
 
-POUR i = 0 TANT QUE i <= nombreDeDepart INCREMENTATION i
+POUR i = 1 TANT QUE i <= nombreDeDepart INCREMENTATION i
 ALORS
 factorielle = factorielle * i
 
