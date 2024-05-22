@@ -6,4 +6,19 @@ Par exemple, si l’utilisateur saisit le nombre 5, le programme doit afficher :
 
 La somme des nombres jusque 5 est: 15
 
-NB : on souhaite afficher uniquement le résultat, pas la décomposition du calcul.
+VARIABLES
+
+i est un ENTIER
+nombreDeDepart est un ENTIER <-- 0
+sommeDesEntiers est un ENTIER
+
+TRAITEMENT
+
+AFFICHER "Entrer un nombre entier :"
+LIRE nombreDeDepart
+
+POUR i = 0 TANT QUE i <= nombreDeDepart INCREMENTATION i
+ALORS 
+sommeDesEntiers <-- sommeDesEntiers + i
+
+AFFICHER sommeDesEntiers 
