@@ -19,7 +19,7 @@ LIRE nombreDeDepart
 
 POUR i = 0 TANT QUE i <= nombreDeDepart INCREMENTATION i
 ALORS 
-sommeDesEntiers + sommeDesEntiers + i
+sommeDesEntiers <-- sommeDesEntiers + i
 
 AFFICHER sommeDesEntiers 
 
