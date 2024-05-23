@@ -19,7 +19,7 @@ TRAITEMENT
 AFFICHER "Entrer un nombre :"
 LIRE nombreDeDepart
 
-POUR i <-- 0 TANT QUE i <= nombreDeDepart INCREMENTER i
+POUR i <-- 1 TANT QUE i <= nombreDeDepart INCREMENTER i
 ALORS
 factorielle <-- factorielle * i
 
