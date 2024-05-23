@@ -7,7 +7,7 @@ public class App {
 	public static void main(String[] args) {
 
 		// Variables
-
+		int nombreChoisi = 2;
 		int nombreSaisi;
 		Scanner sc = new Scanner (System.in);
 
@@ -15,7 +15,7 @@ public class App {
 		System.out.println(" Saisir un nombre entier entre 1 et 3 " );
 		nombreSaisi = sc.nextInt();
 
-		while (nombreSaisi != 2) {
+		while (nombreSaisi != nombreChoisi ) {
 			System.out.println(" Resaisir un nombre entier entre 1 et 3 " );
 			nombreSaisi = sc.nextInt();
 		}
