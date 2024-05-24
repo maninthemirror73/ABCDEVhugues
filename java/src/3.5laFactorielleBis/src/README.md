@@ -1,4 +1,4 @@
-#Exercice 3.5 : La factorielle
+#Exercice 3.5 : La factorielleBis
 
 Écrire un algorithme qui demande à l’utilisateur de saisir un nombre, et qui calcule et affiche sa factorielle.
 
@@ -10,19 +10,17 @@ NB : la factorielle de 8, notée 8!, vaut 1 x 2 x 3 x 4 x 5 x 6 x 7 x 8
 
 VARIABLES
 
-i est un ENTIER
 nombreDeDepart est un ENTIER
 factorielle est un ENTIER <-- 1
+i est un ENTIER
 
-AFFICHER "Entrer un nombre entier :"
+TRAITEMENT
+
+AFFICHER "Entrer un nombre :"
 LIRE nombreDeDepart
 
-POUR i = 1 TANT QUE i <= nombreDeDepart INCREMENTATION i
+POUR i <-- 1 TANT QUE i <= nombreDeDepart INCREMENTER i
 ALORS
-factorielle = factorielle * i
+factorielle <-- factorielle * i
 
 AFFICHER factorielle
-<<<<<<< HEAD
-=======
-//ne fonctionne pas 
->>>>>>> 6ce18a34c6cf1d46e16ffbc2dfc62159770de242

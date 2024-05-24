@@ -21,4 +21,10 @@ POUR i = 0 TANT QUE i <= nombreDeDepart INCREMENTATION i
 ALORS 
 sommeDesEntiers <-- sommeDesEntiers + i
 
+<<<<<<< HEAD
 AFFICHER sommeDesEntiers 
+=======
+AFFICHER sommeDesEntiers 
+
+
+>>>>>>> 6ce18a34c6cf1d46e16ffbc2dfc62159770de242
