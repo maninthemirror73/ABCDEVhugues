@@ -7,3 +7,6 @@ int [] tableau = new int []{0,0,0,0,0,0,0};
 for (int i = 0; i < tableau.length; i++){
 	System.out.println(tableau [i]);
 }
+
+VARIABLE
+tableau est un TABLEAU d'ENTIERS
