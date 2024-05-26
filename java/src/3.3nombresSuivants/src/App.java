@@ -14,14 +14,13 @@ public class App {
 		System.out.println("Entrez un nombre entier");
 		nombreDeDepart = sc.nextInt();
 
-		/* while (i <= 10) {
-System.out.println(nombreDeDepart + i);
-i++;
-} */
+		/*
+		 * while (i <= 10) { System.out.println(nombreDeDepart + i); i++; }
+		 */ 
 
-		for (i = 1; i <= 10; i++) {
-			System.out.println(nombreDeDepart + i);
-		}
+		
+		  for (i = 1; i <= 10; i++) { System.out.println(nombreDeDepart + i); }
+		 
 
 		sc.close();
 	}
