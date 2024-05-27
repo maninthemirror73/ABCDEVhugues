@@ -5,3 +5,5 @@
 L’utilisateur doit donc commencer par entrer le nombre de valeurs qu’il compte saisir. Il effectuera ensuite cette saisie. Enfin, une fois la saisie terminée, le programme affichera le nombre de valeurs négatives et le nombre de valeurs positives.
 
 VARIABLES
+
+nombreDeValeursASaisir est un ENTIER
