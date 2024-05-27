@@ -30,15 +30,7 @@ public class App {
 		for( int i = 0; i < tableau2.length; i++) {
 			
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 
 	}
 
