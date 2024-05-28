@@ -13,7 +13,7 @@ public class App {
 		System.out.println("Entre le nombre de valeurs que vous souhaitez saisir :");
 		tailleDuTableau = sc.nextInt();
 		
-		tableau = new int [tailleDuTableau];
+		tableau = new int [tailleDuTableau];//initialisation de tableau
 		
 		for(i = 0; i < tailleDuTableau; i++) {
 			System.out.println("Saisissez la valeur N°" + (i+1));
