@@ -10,10 +10,10 @@ public class App {
 		int negatif = 0;
 		int [] tableau;
 		
-		System.out.println("Entre le nombre de valeurs que vous souhaitez saisir :");
+		System.out.println("Entrez le nombre de valeurs que vous souhaitez saisir :");
 		tailleDuTableau = sc.nextInt();
 		
-		tableau = new int [tailleDuTableau];//initialisation de tableau
+		tableau = new int [tailleDuTableau];//initialisation du tableau
 		
 		for(i = 0; i < tailleDuTableau; i++) {
 			System.out.println("Saisissez la valeur N°" + (i+1));

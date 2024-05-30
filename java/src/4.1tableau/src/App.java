@@ -7,7 +7,7 @@ public class App {
 		char [] tableau;
 		tableau = new char [] {'a','e','i','o','u','y'};
 		
-		char [] tableurTer = new char [6];
+		/* char [] tableurTer = new char [6]; */
 
 	}
 
