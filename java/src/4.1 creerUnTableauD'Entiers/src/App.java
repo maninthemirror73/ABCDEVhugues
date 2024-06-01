@@ -2,12 +2,11 @@
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int [] tableau = new int []{0,0,9,0,0,0,0};
-
+		char [] tableau ;
+		tableau = new char [] {'a', 'b', 'c', 'd'};	
 		
-		  for (int i = 0; i < tableau.length; i++){ System.out.println(tableau [i]); }
-		 
+		for(int i = 0; i < tableau.length; i++)
+			System.out.println(tableau [i]);
 	}
 
 }
