@@ -4,31 +4,41 @@ import java.util.Arrays;
 public class App {
 
 	public static void main(String[] args) {
+
 		//VARIABLES
+		int i;
+		int [] tableauInitial;
+		int [] tableauFinal; 
+		int nombreAInserer;
+		Scanner sc = new Scanner (System.in);
+		
+		tableauInitial = new int [] {1, 4, 5};
+		
+		System.out.println("Entrer la valeur à ajouter :");
+		nombreAInserer = sc.nextInt();
+				
+		tableauFinal = new int[4];
+		
+		
+		  tableauFinal [0] = tableauInitial [0];
+		  tableauFinal [1] = tableauInitial [1];
+		  tableauFinal [2] = tableauInitial [2];
+		  tableauFinal [3] = nombreAInserer;
+		 
+		
 		/*
-		 * int tailleDuTableau; int i; int nombreAInserer; int [] tableauInitial;
-		 * Scanner sc = new Scanner (System.in);
+		 * for (i = 0; i < tableauFinal.length; i++) {
+		 * System.out.println(tableauFinal[i]); }
 		 */
-		
-		int[] numbers = new int [] {8, 2, 7, 3, 1, 5};
-		
-		Arrays.sort(numbers);
-		
-        System.out.println("Sorted Numbers:");
-        for (int number : numbers) {
-            System.out.println(number);
-        }
 
-		
-		
-		
+        Arrays.sort(tableauFinal);
 
-		
+		for (i = 0; i < tableauFinal.length; i++) {
+			System.out.println(tableauFinal[i]);
+		}
 
-	       
-		
 
-		
+	sc.close();	
 	}
 
 }
