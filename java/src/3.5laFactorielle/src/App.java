@@ -23,3 +23,7 @@ public class App {
 	}
 
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6ce18a34c6cf1d46e16ffbc2dfc62159770de242

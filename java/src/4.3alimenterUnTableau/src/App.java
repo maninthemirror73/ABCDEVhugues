@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class App {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		// VARIABLES
 		Scanner sc = new Scanner (System.in);
 		int tailleDuTableau;
@@ -36,3 +37,27 @@ public class App {
 }
 
 
+=======
+		//VARIABLES
+		int tailleDuTableau;
+		int [] tableau;
+		int i;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Combien de valeurs souhaitez vous entrer ?");
+		tailleDuTableau = sc.nextInt();
+		
+		for (i = 0; i <= tailleDuTableau; i++) {
+			tableau[i] = tailleDuTableau(i);
+		}
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+	}
+
+}
+>>>>>>> b9c75edc6ef71bf3d5e5f4fbadd19006435504da

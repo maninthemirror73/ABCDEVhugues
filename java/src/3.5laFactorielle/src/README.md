@@ -22,4 +22,7 @@ ALORS
 factorielle = factorielle * i
 
 AFFICHER factorielle
+<<<<<<< HEAD
+=======
 //ne fonctionne pas 
+>>>>>>> 6ce18a34c6cf1d46e16ffbc2dfc62159770de242
