@@ -65,6 +65,18 @@ public class Bouteille {
 		}
 		return possibleDeRemplir;
 	}
+	
+		public String natureDuContenu() {
+			String quelLiquide;
+			if (typeDeContenu == "h2o") {
+				quelLiquide = "h2o";
+			}
+			else {
+				quelLiquide = "coca";
+			}
+			return quelLiquide;
+			
+		}
 }
 
 

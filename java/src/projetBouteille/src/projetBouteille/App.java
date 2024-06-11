@@ -11,6 +11,8 @@ public class App {
 		
 		boolean bouteilleRemplie = bouteille2.remplir();
 		
+		String liquideContenu = bouteille2.natureDuContenu();
+		
 	}
 }
 
