@@ -39,7 +39,7 @@ public class Bouteille {
 
 	}
 	
-/////////////////////////////////////////////////////////////////////////////////////
+
 	
 	public boolean ouvrir() {
 		boolean bouteilleAReussiAOuvrir = false;
@@ -51,26 +51,21 @@ public class Bouteille {
 		}
 		return 	bouteilleAReussiAOuvrir;
 	}
-////////////////////////////////////////////////////////////////////////////////////////
-	public String contenu1 () {
-		String contenuDeLaBouteille1 = "coca";
-		return contenuDeLaBouteille1;
-		
-	}	
-////////////////////////////////////////////////////////////////////////////////////////
-	public String contenu2 () {
-		String contenuDeLaBouteille2 = "h2o";
-		return contenuDeLaBouteille2;
-		
-	}
-////////////////////////////////////////////////////////////////////////////////
-	public String contenu3 () {
-		String contenuDeLaBouteille3 = "h2o";
-		return contenuDeLaBouteille3;
-		
+	
+
+	
+	public boolean remplir() {
+		boolean possibleDeRemplir;
+		if (ouvert == true && contenuEnL < contenanceEnL){
+			possibleDeRemplir = true;
+			contenuEnL = contenanceEnL;
+		}
+		else {
+			possibleDeRemplir = false;
+		}
+		return possibleDeRemplir;
 	}
 }
-
 
 
 

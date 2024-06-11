@@ -8,8 +8,9 @@ public class App {
 
 		Bouteille bouteille3 = new Bouteille();
 
-
-
+		
+		boolean bouteilleRemplie = bouteille2.remplir();
+		
 	}
 }
 
