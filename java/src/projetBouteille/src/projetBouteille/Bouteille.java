@@ -52,7 +52,35 @@ public class Bouteille {
 		return 	bouteilleAReussiAOuvrir;
 	}
 	
+	public boolean fermer() {
+		boolean bouteilleAReussiAFermer;
+		if (ouvert == true) {
+			bouteilleAReussiAFermer = true;
+		}
+		else {
+			bouteilleAReussiAFermer = false;
+		}
+		return bouteilleAReussiAFermer;
+	}
+	
 
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	public boolean remplir() {
 		boolean possibleDeRemplir;
@@ -65,18 +93,6 @@ public class Bouteille {
 		}
 		return possibleDeRemplir;
 	}
-	
-		public String natureDuContenu() {
-			String quelLiquide;
-			if (typeDeContenu == "h2o") {
-				quelLiquide = "h2o";
-			}
-			else {
-				quelLiquide = "coca";
-			}
-			return quelLiquide;
-			
-		}
 }
 
 
