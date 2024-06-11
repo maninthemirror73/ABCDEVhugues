@@ -38,50 +38,34 @@ public class Bouteille {
 		this.typeDeContenu  = _bouteilleARecopier.typeDeContenu = "Champagne";
 
 	}
-	
 
-	
+
+
 	public boolean ouvrir() {
 		boolean bouteilleAReussiAOuvrir = false;
-		if (ouvert == true) {
+		if (ouvert == false) {
 			bouteilleAReussiAOuvrir = false;
+			ouvert = true;
 		}
 		else {
 			ouvert = true;
 		}
 		return 	bouteilleAReussiAOuvrir;
 	}
-	
+
 	public boolean fermer() {
 		boolean bouteilleAReussiAFermer;
 		if (ouvert == true) {
 			bouteilleAReussiAFermer = true;
+			ouvert = false;
 		}
 		else {
 			bouteilleAReussiAFermer = false;
 		}
 		return bouteilleAReussiAFermer;
 	}
-	
 
-	
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	public boolean remplir() {
 		boolean possibleDeRemplir;
 		if (ouvert == true && contenuEnL < contenanceEnL){
@@ -92,6 +76,16 @@ public class Bouteille {
 			possibleDeRemplir = false;
 		}
 		return possibleDeRemplir;
+	}
+	
+	public boolean vider() {
+		boolean possibleDeVider;
+		if(ouvert == true && contenuEnL > 0) {
+			possibleDeVider = true;
+			ouvert = false;
+			
+			
+		}
 	}
 }
 
