@@ -80,13 +80,44 @@ public class Bouteille {
 	
 	public boolean vider() {
 		boolean possibleDeVider;
-		if(ouvert == true && contenuEnL > 0) {
+		if (ouvert == true && contenuEnL > 0) {
 			possibleDeVider = true;
-			ouvert = false;
-			
-			
+			contenuEnL = 0;
 		}
+		else {
+			possibleDeVider = false;
+		}
+		return possibleDeVider;
 	}
+	
+	public boolean estPleine() {
+		boolean bouteillePleine;
+		if (contenuEnL == contenanceEnL) {
+			bouteillePleine = true;
+			contenuEnL = 1;
+		}
+		else {
+			bouteillePleine = false;
+		}
+		return bouteillePleine;
+		
+	}
+	
+	public boolean remplir(float quantite) {
+		boolean retour;
+		if(this.ouvert == true && quantite <= (this.contenanceEnL - this.contenuEnL)) {
+			retour = true;
+			contenuEnL = contenuEnL + quantite;
+		}
+		else {
+			retour = false;
+		}
+		
+		
+		return retour;
+	}
+	
+
 }
 
 

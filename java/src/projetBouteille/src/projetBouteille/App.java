@@ -8,11 +8,17 @@ public class App {
 
 		Bouteille bouteille3 = new Bouteille();
 
+
+		boolean reussirAFermerLaBouteille = bouteille2.fermer();
+		
+		boolean bouteilleAReussiAOuvrir = bouteille2.ouvrir();
+		
+		boolean possibleDeVider = bouteille2.vider();
 		
 		boolean bouteilleRemplie = bouteille2.remplir();
 		
-		boolean reussirAFermerLaBouteille = bouteille2.fermer();
-		
+		boolean bouteillePleine = bouteille2.estPleine();
+	
 	}
 }
 
